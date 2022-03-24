@@ -9,3 +9,18 @@ th {
 td {
     border: 1px solid black;
 }
+
+.logo {
+    height: 2px;
+    width: 2px;
+}
+
+img {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+tr {
+    position: relative;
+    right: 0px;
+}
