@@ -63,6 +63,26 @@ li {
     text-align: left;
 }
 
+table tr td {
+    border: 1px solid black;
+}
+
+table {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 110%;
+}
+
 @media screen and (max-width: 768px) {
     body {
         background-color: aqua;
