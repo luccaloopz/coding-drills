@@ -8,10 +8,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: antiquewhite;
 }
 nav {
     display: flex;
     justify-content: flex-end;
+    background-color:rgb(136, 151, 163);
+    border-bottom: 5px solid green;
 }
 
 a {
@@ -22,33 +25,51 @@ a {
     font-weight: bolder;
 }
 
-#sandwich {
+section {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid green;
+}
+
+#animal {
+    height: auto;
+    border-bottom: 5px solid green;
+}
+
+#other {
+    border-bottom: 5px solid antiquewhite;
 }
 
 div {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 img {
     margin-left: auto;
     margin-right: auto;
     height: 425px;
+    border: 5px solid green;
 }
 
 header {
     text-align: center;
+    background-color:rgb(136, 151, 163);
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
 }
 
 main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -57,10 +78,15 @@ h1 {
 
 h2 {
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: 5px solid green;
 }
 
 li {
     text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 table tr td {
@@ -86,5 +112,9 @@ td {
 @media screen and (max-width: 768px) {
     body {
         background-color: aqua;
+    }
+
+    #other {
+        border-bottom: 5px solid aqua;
     }
 }

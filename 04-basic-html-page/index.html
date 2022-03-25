@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <meta charset="UTF-8">
         <title>html coding drill practice</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
 
     <body>
         <header>
-            <h1>html practice</h1>
+            <h1>HTML & CSS Practice</h1>
         </header>
         
         <nav>
@@ -16,12 +17,12 @@
             <a href="#">Broken Link (Goes Nowhere)</a>
         </nav>
 
-        <main>
-            <div>
-                <img src="LinkedIn Profile Picture.jpg" alt="picture of Lucca in a suit"/>
-            </div>
+        <div>
+            <img src="LinkedIn Profile Picture.jpg" alt="picture of Lucca in a suit"/>
+        </div>
 
-            <section id="sandwich">
+        <main>
+            <section>
                 <h2>How to Make a Sandwich:</h2>
                 <ol>
                     <li>Grab two slices of bread, ham, cheese, and butter</li>
@@ -30,7 +31,9 @@
                     <li>Take the cheese and put it on top of the ham</li>
                     <li>Grab the second slice of bread and place it on top of the cheese</li>
                 </ol>
-
+            </section>
+            
+            <section>
                 <h2>Top 5 Favorite Bands</h2>
                 <ul>
                     <li>Panic! At the Disco</li>
@@ -39,8 +42,13 @@
                     <li>The Lumineers</li>
                     <li>Mumford & Sons</li>
                 </ul>
+            </section>
 
-                <h2>Animal Table</h2>
+            <section>
+                <div id="animal">
+                    <h2 id="other">Animal Table</h2>
+                </div>
+                
                 <table>
                     <tr>
                         <td class="bold">Animal Class</td>
@@ -63,7 +71,11 @@
                         <td>Lion</td>
                     </tr>
                 </table>
+            </section>
 
+            <section>
+                <h2>The Killers - Mr. Brightside</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gGdGFtwCNBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
         </main>
     </body>
